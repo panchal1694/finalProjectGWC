@@ -1,31 +1,60 @@
-/* Station One - Ingredients Station */
-.station-one {
-  width: 250px;
-  height: 200px;
-  background-color: #f8f9fa;
-  border: 3px solid #6c757d;
-  border-radius: 15px;
-  padding: 20px;
-  margin: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  display: inline-block;
-  vertical-align: top;
-  font-family: Arial, sans-serif;
-  color: #495057;
+#header {
+  text-align: center;
+  color: #4a3f35;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 10px;
+  font-size: 80px;
 }
 
-/* Station Two - Cooking Station */
-.station-two {
+body {
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #f5f1e8;
+}
+.pickRecipe {
   width: 250px;
   height: 200px;
-  background-color: #fff3cd;
-  border: 3px solid #ffc107;
+  background-color: #ffffff;
+  border: 3px solid #4a3f35;
   border-radius: 15px;
-  padding: 20px;
+  padding : 10px;
   margin: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
   display: inline-block;
   vertical-align: top;
   font-family: Arial, sans-serif;
-  color: #856404;
+  color: #2f3a33;
 }
+.showRecipe{
+  width: 850px;
+  height: 400px;
+  background-color: #ffffff;
+  border: 3px solid #4a3f35;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+  display: inline-block;
+  vertical-align: top;
+  font-family: Arial, sans-serif;
+  color: #2f3a33;
+}
+.recipeBtn{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  background-color: #6f8f72;
+  color: 4a3f35;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 10px;
+}
+.recipeBtn:hover{
+  color: white;
+}
+
