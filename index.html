@@ -2,25 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COOKBOOK</title>
-    <link rel="stylesheet" href="style.css"></head>
-    <script src="script.js"></script>
-<body>
-    <h1 id="header">COOKBOOK</h1>
-    <div class="pickRecipe">
-        <button class="recipeBtn" onclick="recipe1()">Chocolate Chip Cookies</button>
-        <button class="recipeBtn" onclick="recipe2()">Pumpkin Pie</button>
-        <button class="recipeBtn" onclick="recipe3()">Tres Leches Cake</button>
-    </div>
-    <div class="showRecipe">
-        <h1 id="stepHeader"></h1>
-        <img>
-        <p></p>
-        <button></button>
-        <button></button>
-    </div>
-    
+    <title>Title</title>
+<link rel="stylesheet" href="mystyle.css">
+</head>
+<h1 id="head">URBAN SLICE</h1>
+<body onload="showfood()">
+
+
+<div id="ihatethistoo">
+    <section>
+
+<h1> Main Dishes </h1>
+<p id="mainss"></p>
+<h1> Sides </h1>
+<p id="side"></p>
+<h1> Mocktails </h1>
+<p id="bev"></p>
+    </section>
+</div>
+
+<div id="ihatethis">
+    <section>
+<h1> Pick Main Dishes </h1>
+<button type="button" class="btn" onclick="createmain()">Order Main Dishes</button>
+<p id="a"></p>
+<h1> Pick Sides </h1>
+<button type="button" class="btn" onclick="createsides()">Order side Dishes</button>
+<p id="b"></p>
+<h1> Pick Mocktails </h1>
+<button type="button" class="btn" onclick="createbevs()">Order mocktails</button>
+<p id="c"></p>
+        <br>
+    </section>
+    <section>
+<h1>SubTotal (with tax)</h1>
+
+<p id="subtotal"></p>
+
+<h1>tip (%) </h1>
+<input id="inp">
+<button type="button" class="btn" onclick="calctip()">calculate tip</button>
+<p id="tip"></p>
+<h2>Total:</h2>
+<p id="tot"> </p>
+        <h1>you give:</h1>
+        <input id="inp2">
+        <button type="button" id="change?" onclick="calcchange()">calculate change</button>
+        <h1>change</h1>
+        <p id="change"></p>
+    </section>
+</div>
+
+
 
 </body>
 </html>

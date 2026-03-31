@@ -1,60 +1,43 @@
-#header {
-  text-align: center;
-  color: #4a3f35;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 10px;
-  font-size: 80px;
+#ihatethis{
+
+    font-size: 20px;
+    font-palette: light;
+    font-family: Dubai;
+    color: blanchedalmond;
+
+
+}
+#ihatethistoo{
+
+font-size: 20px;
+    color: blanchedalmond;
+    font-family: Dubai;
 }
 
-body {
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
-  background-color: #f5f1e8;
-}
-.pickRecipe {
-  width: 250px;
-  height: 200px;
-  background-color: #ffffff;
-  border: 3px solid #4a3f35;
-  border-radius: 15px;
-  padding : 10px;
-  margin: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
-  display: inline-block;
-  vertical-align: top;
-  font-family: Arial, sans-serif;
-  color: #2f3a33;
-}
-.showRecipe{
-  width: 850px;
-  height: 400px;
-  background-color: #ffffff;
-  border: 3px solid #4a3f35;
-  border-radius: 15px;
-  padding: 10px;
-  margin: 20px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
-  display: inline-block;
-  vertical-align: top;
-  font-family: Arial, sans-serif;
-  color: #2f3a33;
-}
-.recipeBtn{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-style: italic;
-  background-color: #6f8f72;
-  color: 4a3f35;
-  border: none;
-  border-radius: 8px;
-  padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-  margin-top: 10px;
-}
-.recipeBtn:hover{
-  color: white;
+#head{
+    font-size: 100px;
+    font-family: Elephant;
+    color: blanchedalmond;
+    text-align: center;
 }
 
+body{
+    background-color: darkseagreen;
+}
+
+.btn{
+    background-color: transparent;
+    color: blanchedalmond;
+    border-color: blanchedalmond;
+}
+section{
+    border-style: outset;
+    float:left;
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border-radius: 25px;
+
+}
