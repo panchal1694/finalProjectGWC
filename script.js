@@ -117,7 +117,6 @@ const mains=["deep dish pizza", "detroit pizza", "roma pizza" , "sicily pizza" ,
                     }
 
                 }
-                stotal=cost+(cost/10)
                 document.getElementById("subtotal").innerHTML="$" + stotal
 
 
@@ -126,6 +125,8 @@ const mains=["deep dish pizza", "detroit pizza", "roma pizza" , "sicily pizza" ,
 
 
             function calctip() {
+
+            stotal = cost + (cost/10);
 
             tip=document.getElementById("inp").value;
 
@@ -142,6 +143,11 @@ const mains=["deep dish pizza", "detroit pizza", "roma pizza" , "sicily pizza" ,
 
             function calcchange(){
             paid=document.getElementById("inp2").value;
-            change=paid-total;
-            document.getElementById("change").innerHTML=change.toFixed(2)+"$";
+            if(paid>total){
+                change=paid-total;
+            document.getElementById("change").innerHTML=change.toFixed(2)+"$"
+            }else{
+                document.getElementById("change").innerHTML="Insufficient funds! enter again";
+            }
+            
             }
