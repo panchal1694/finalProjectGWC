@@ -87,6 +87,8 @@ const mains=["deep dish pizza", "detroit pizza", "roma pizza" , "sicily pizza" ,
                 }
 
             }
+            stotal = cost + (cost/10);
+                document.getElementById("subtotal").innerHTML="$" + stotal
 
         }
 
@@ -104,6 +106,8 @@ const mains=["deep dish pizza", "detroit pizza", "roma pizza" , "sicily pizza" ,
                 }
 
             }
+            stotal = cost + (cost/10);
+                document.getElementById("subtotal").innerHTML="$" + stotal
         }
             function createbevs(){
                 orderbevs=1
@@ -117,6 +121,7 @@ const mains=["deep dish pizza", "detroit pizza", "roma pizza" , "sicily pizza" ,
                     }
 
                 }
+                 stotal = cost + (cost/10);
                 document.getElementById("subtotal").innerHTML="$" + stotal
 
 
